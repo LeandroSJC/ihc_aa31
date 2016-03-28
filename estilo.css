@@ -1,0 +1,157 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 36px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.oculto {
+	visibility: hidden;
+}
+
+#cabecalho {
+	width: 100%;
+	font-size: 12px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #3e67b1;
+	color: #ffffff;
+	float: left;
+}
+
+#barraAcessibilidade {
+	width: 100%;
+	padding-top: 1em;
+	padding-bottom: 2em;
+	padding-left: 1em;
+	float: left;
+}
+
+#barraAcessibilidade a {
+	color: #ffffff;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: left;
+	padding-right: 1em;
+}
+
+#barraAcessibilidade ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+#barraAcessibilidade ul li {
+	display: inline;
+}
+
+#titulo {
+	float: left;
+	padding-left: 1em;
+}
+
+#titulo a {
+	color: #ffffff;
+}
+
+#titulo a:hover {
+	text-decoration: none;
+}
+
+#portalbusca {
+	float: right;
+	padding-right: 1em;
+}
+
+#busca {
+	border-width: thin;
+	border-color: #BBBBBB;
+	border-radius: 4px;
+	padding: 0.4em;
+}
+#portalbusca form .buscar {
+	border-radius: 4px;
+	padding: 0.4em;
+	border-style: none;
+}
+
+#menubar {
+	float: left;
+	width: 100%;
+	background-color: #0f4098;
+	text-align: center;
+}
+
+#menubar a {
+	color: #ffffff;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#menubar ul {
+	padding: 0.5em;
+	list-style: none;
+}
+
+#menubar ul li {
+	display: inline;
+	padding: 0.6em;
+}
+
+#menu {
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#menu a {
+	color: #3e67b1;
+	font-weight: bold;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#menu ul li {
+	margin-bottom: 10px;
+	padding: 1em;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #3e67b1;
+	border-radius: 10px;
+	background-color: #eaebee;
+}
+
+#conteudo {
+	margin-top: 1em;
+	float: left;
+}
+
+#rodape {
+	float: left;
+	width: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #3e67b1;
+	color: #ffffff;
+	text-align: center;
+	font-size: 12px;
+}
+
+#logo {
+	float: left;
+	padding-left: 1em;
+}
