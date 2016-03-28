@@ -19,7 +19,6 @@ h1 {
 }
 
 p {
-	float: left;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -30,9 +29,12 @@ p {
 }
 
 .menulinhavertical {
+	float: left;
 	margin: 0px;
-	padding: 0px;
+	padding: 0.5em;
 	list-style: none;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .menulinhavertical li {
@@ -165,13 +167,11 @@ p {
 
 #menu {
 	float: left;
-	text-align: center;
-	text-transform: uppercase;
+	padding: 0px;
 }
 
 #conteudo {
-	float: left;
-	padding-left: 1em;
+
 }
 
 #rodape {
