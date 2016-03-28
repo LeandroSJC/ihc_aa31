@@ -18,10 +18,23 @@ h1 {
 	font-weight: bold;
 }
 
+h2 {
+	padding-top: 1em;
+	font-size: 28px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+h3 {
+	padding-top: 1em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
 p {
 	padding-top: 0.5em;
-	padding-bottom: 0.5em;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: justify;
 }
 
 .oculto {
@@ -30,11 +43,10 @@ p {
 
 .menulinhavertical {
 	float: left;
-	margin: 0px;
-	padding: 0.5em;
 	list-style: none;
 	text-align: center;
 	text-transform: uppercase;
+	padding: 0.5em;
 }
 
 .menulinhavertical li {
@@ -54,8 +66,7 @@ p {
 }
 
 .menulinhahorizontal {
-	margin: 0px;
-	padding: 1em;
+	padding: 0.5em;
 	list-style: none;
 	text-align: center;
 }
@@ -165,13 +176,20 @@ p {
 	padding: 0.6em;
 }
 
+#central {
+	float: left;
+	width: 100%;
+}
+
 #menu {
 	float: left;
-	padding: 0px;
+	width: 260px;
+	height: 100%;
 }
 
 #conteudo {
-
+	padding-top: 1em;
+	margin-left: 260px;
 }
 
 #rodape {
